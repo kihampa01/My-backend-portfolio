@@ -6,11 +6,4 @@ services:
     buildCommand: npm install
     startCommand: npm start
     plan: free
-     envVars:
-      - key: NODE_ENV
-        value: production
-      - key: CORS_ORIGIN
-        value: https://philemon-portfolio-frontend.vercel.app
-        scope: all
-        sync: false
-
+  
