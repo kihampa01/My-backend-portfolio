@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const PORT = process.env.PORT || 3001;
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://frontend-repo-alpha.vercel.app/";
 const profilePath = path.join(__dirname, "data", "profile.json");
 
 const sendJson = (response, statusCode, payload) => {
