@@ -6,3 +6,12 @@ services:
     buildCommand: npm install
     startCommand: npm start
     plan: free
+     envVars:
+      - key: PORT
+        value: 3001
+      - key: FRONTEND_URL
+        value:  https://frontend-repo-alpha.vercel.app
+        scope: all
+        sync: false
+
+
