@@ -3,11 +3,12 @@ const fs = require("fs");
 const path = require("path");
 
 const PORT = process.env.PORT || 3001;
+const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
 const profilePath = path.join(__dirname, "data", "profile.json");
 
 const sendJson = (response, statusCode, payload) => {
   response.writeHead(statusCode, {
-    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Origin": FRONTEND_URL,
     "Access-Control-Allow-Methods": "GET, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type",
     "Content-Type": "application/json; charset=utf-8"
