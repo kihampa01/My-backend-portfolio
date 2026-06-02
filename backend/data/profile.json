@@ -1,0 +1,51 @@
+{
+  "name": "Mkiva David",
+  "initials": "MD",
+  "role": "Data Scientist, Analyst, Software Developer",
+  "focus": "Data Science, Analytics, Software Development",
+  "location": "Dar es Salaam, Tanzania",
+  "bio": "I build data-driven solutions and software tools that transform business requirements into high-impact insights.",
+  "skills": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Data Visualization",
+    "JavaScript",
+    "Cloud Analytics",
+    "Business Intelligence",
+    "API Development"
+  ],
+  "qualifications": [
+    {
+      "title": "Data Science and Analytics Training",
+      "detail": "Hands-on experience building dashboards, predictive models, and analytics workflows."
+    },
+    {
+      "title": "Software Development Coursework",
+      "detail": "Practical projects in software engineering, databases, and web application development."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sales Forecast Dashboard",
+      "description": "A dashboard that visualizes sales trends and business performance using historical data.",
+      "technologies": ["Python", "SQL", "Tableau", "JavaScript"]
+    },
+    {
+      "title": "Customer Insights Engine",
+      "description": "A data pipeline that generates customer segmentation and analytics for decision support.",
+      "technologies": ["Python", "Pandas", "Machine Learning", "Cloud Services"]
+    },
+    {
+      "title": "Portfolio Project Admin Portal",
+      "description": "A secure project management area for adding and updating portfolio entries.",
+      "technologies": ["JavaScript", "Node.js", "REST API"]
+    }
+  ],
+  "adminHash": "56681010b753e1abe52c449d0aab291b28f1808a3a91b6baeaa726883baad4b0",
+  "contact": {
+    "email": "mkivakihampa05@gmail.com",
+    "phone": "+255763832814",
+    "github": "https://github.com/kihampa01"
+  }
+}
